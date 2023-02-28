@@ -21,7 +21,9 @@ export default function Home() {
           height={198}
           alt="cute blinking dog"
         />
-        <h1 className={styles.title}>Don't press it, the doggo will woof.</h1>
+        <h1 className={styles.title}>
+          Don&apos;t press it, the doggo will woof.
+        </h1>
         <button className={styles.button} onClick={play}>
           Ring the bell! 🔔
         </button>
